@@ -1,7 +1,7 @@
 package String1;
 
 public class comboString {
-    public String comboString(String a, String b) {
+    public static String comboString(String a, String b) {
         int along = a.length();
         int blong = b.length();
         if(along > blong) {
