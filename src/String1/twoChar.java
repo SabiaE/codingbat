@@ -1,7 +1,7 @@
 package String1;
 
 public class twoChar {
-    public String twoChar(String str, int index) {
+    public static String twoChar(String str, int index) {
         if((str.length() >= index + 2) && index>=0) {
             return str.substring(index, index+2);
         } else {
