@@ -1,7 +1,7 @@
 package String1;
 
 public class withoutX {
-    public String withoutX(String str) {
+    public static String withoutX(String str) {
         if(str.length() == 0){
             return str;
         }

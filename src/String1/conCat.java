@@ -1,7 +1,7 @@
 package String1;
 
 public class conCat {
-    public String conCat(String a, String b) {
+    public static String conCat(String a, String b) {
         if(a.length()<1 || b.length()<1) {
             return a+b;
         }

@@ -1,7 +1,7 @@
 package String1;
 
 public class startWord {
-    public String startWord(String str, String word) {
+    public static String startWord(String str, String word) {
         int a = str.indexOf(word);
         int b = str.indexOf(word.substring(1));
         if(a == 0) {
